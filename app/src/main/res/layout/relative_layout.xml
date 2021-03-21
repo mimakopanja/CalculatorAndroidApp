@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="bottom"
+        android:lines="2"
+        android:maxLines="2"
+        android:enabled="false"
+        android:textSize="30sp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/_7"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@+id/seven"
+        android:text="@string/_8"
+        android:layout_marginEnd="5dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/eight"
+        android:text="@string/_9"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/seven"
+        android:text="@string/_4"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"/>
+
+    <Button
+        android:id="@+id/five"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eight"
+        android:text="@string/_5"
+        android:layout_toEndOf="@+id/four"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nine"
+        android:text="@string/_6"
+        android:layout_toEndOf="@+id/five"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/one"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four"
+        android:text="@string/_1"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/five"
+        android:text="@string/_2"
+        android:layout_toEndOf="@+id/one"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/six"
+        android:text="@string/_3"
+        android:layout_toEndOf="@+id/two"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/dot"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:text="@string/dot"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"/>
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:layout_toEndOf="@+id/dot"
+        android:text="@string/_0"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/three"
+        android:layout_toEndOf="@+id/zero"
+        android:text="@string/equal"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/nine"
+        android:text="@string/divide"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divide"
+        android:layout_toEndOf="@+id/six"
+        android:text="@string/multiply"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multiply"
+        android:layout_toEndOf="@+id/three"
+        android:text="@string/plus"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:layout_toEndOf="@+id/equals"
+        android:text="@string/minus"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minus"
+        android:layout_alignEnd="@id/minus"
+        android:layout_alignStart="@id/dot"
+        android:text="@string/reset"
+        android:textSize="30sp"/>
+</RelativeLayout>
+
+</RelativeLayout>
