@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="MyStyle" parent="Theme.Calculator">
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:layout_marginEnd">@dimen/margin_end</item>
+        <item name="android:fontFamily">@font/marathon</item>
+    </style>
+
+</resources>
