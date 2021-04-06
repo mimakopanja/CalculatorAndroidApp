@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="MyStyle" parent="Theme.Calculator">
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:layout_marginEnd">@dimen/margin_end</item>
+        <item name="android:fontFamily">@font/marathon</item>
+    </style>
+
+    <style name="ThemeDark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <item name="colorPrimary">@color/dark_red</item>
+    <item name="colorPrimaryVariant">@color/dark_red</item>
+    <item name="colorOnPrimary">@color/olive</item>
+    <item name="android:textColor">@color/olive</item>
+    <item name="android:windowBackground">@drawable/background_dark</item>
+    </style>
+
+</resources>

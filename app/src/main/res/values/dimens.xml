@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_text_size">40sp</dimen>
+    <dimen name="margin_end">5dp</dimen>
+    <dimen name="text_size_chooser">30sp</dimen>
+</resources>
